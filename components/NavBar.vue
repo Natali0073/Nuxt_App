@@ -8,8 +8,13 @@
           </nuxt-link>
         </li>
         <li class="nav-item active">
-          <nuxt-link active-class="active" class="nav-link" to="/about">
+          <nuxt-link no-prefetch active-class="active" class="nav-link" to="/about">
             About
+          </nuxt-link>
+        </li>
+        <li class="nav-item active">
+          <nuxt-link no-prefetch active-class="active" class="nav-link" to="/users">
+            Users
           </nuxt-link>
         </li>
       </ul>
