@@ -34,6 +34,7 @@ export default {
 
 <style>
 .container {
+  background: #ffffff;
   min-height: 100vh;
   display: flex;
   justify-content: center;
