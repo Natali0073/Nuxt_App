@@ -42,6 +42,7 @@ module.exports = {
     /*
      ** Run ESLint on save
      */
+    vendor: ['hcap.js'],
     extend (config, {isDev, isClient}) {
       if (isDev && isClient) {
         config.module.rules.push({
