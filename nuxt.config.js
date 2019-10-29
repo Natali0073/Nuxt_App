@@ -11,18 +11,28 @@ module.exports = {
     ],
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
+    ],
+    script: [
+      {
+        src: 'hcap.js'
+      }
     ]
   },
   /*
    ** Customize the progress bar color
    */
-  loading: {color: '#3B8070'},
+  loading: {color: 'blue'},
 
   /*
    ** Customize the progress bar color
    */
   css: [
     '@/node_modules/bootstrap/dist/css/bootstrap.min.css'
+  ],
+
+  modules: [
+    '@nuxtjs/font-awesome',
+    '@nuxtjs/axios',
   ],
 
   /*
