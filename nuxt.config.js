@@ -12,11 +12,6 @@ module.exports = {
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
     ],
-    script: [
-      {
-        src: 'hcap.js'
-      }
-    ]
   },
   /*
    ** Customize the progress bar color
@@ -42,7 +37,6 @@ module.exports = {
     /*
      ** Run ESLint on save
      */
-    vendor: ['hcap.js'],
     extend (config, {isDev, isClient}) {
       if (isDev && isClient) {
         config.module.rules.push({
