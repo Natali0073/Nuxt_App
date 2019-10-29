@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Hi</h1>
-    <button @click="createEvent">click 2</button>
+    <button @click="createEvent">click</button>
   </div>
 </template>
 
