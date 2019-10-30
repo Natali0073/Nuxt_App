@@ -2,7 +2,6 @@
 <div>
   Blog {{blogPost}}
   <h1>{{blogPost.title}}</h1>
-  <div v-html="$md.render(blogPost.body)" />
 
 </div>
 </template>
