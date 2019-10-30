@@ -13,6 +13,11 @@
           </nuxt-link>
         </li>
         <li class="nav-item active">
+          <nuxt-link no-prefetch active-class="active" class="nav-link" to="/blog">
+            Blog
+          </nuxt-link>
+        </li>
+        <li class="nav-item active">
           <nuxt-link no-prefetch active-class="active" class="nav-link" to="/users">
             Users
           </nuxt-link>

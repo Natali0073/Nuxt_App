@@ -33,7 +33,12 @@ module.exports = {
   modules: [
     '@nuxtjs/font-awesome',
     '@nuxtjs/axios',
+    '@nuxtjs/markdownit'
   ],
+
+  markdownit: {
+    injected: true,
+  },
 
   /*
    ** Build configuration
